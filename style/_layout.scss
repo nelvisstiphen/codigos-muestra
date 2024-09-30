@@ -117,14 +117,178 @@
   padding: 20px 0;
   max-width: 407px;
   color: rgb(0, 255, 0);
+  transition: all 1s ease;
 }
 
+#html, #css, #js {
+  
+  transition: all 1s ease;
+}
+
+
+.active-codido {
+  
+  animation: code 2s linear infinite both;
+}
+
+@keyframes code {
+  0% {
+    transform: scale(0) translateX(-200px) rotateY(180deg);
+  }
+  50% {
+    transform: scale(1) translateX(0) rotateY(380deg);
+    text-shadow: 7px 7px 7px rgb(0, 4, 255);
+  }
+  100% {
+    transform: scale(0) translateX(-200px) rotateY(180deg);
+  }
+}
 
 .atributo {
   color: rgb(0, 255, 255);
 }
 
+.parrafo-movil {
+  font-style: italic;
+  font-family: sans-serif;
+  color: rgb(255, 0, 234);
+  font-weight: bold;
+  font-size: 60px;
+  animation: code 10s linear infinite both;
+  
+}
 
 
 
+.parrafo-movil2 {
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  animation: code2 20s linear infinite both;
+  perspective: 800px;
+  
+}
 
+
+@keyframes code2 {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg);
+    background: -webkit-linear-gradient(0deg, rgb(255, 0, 255), rgb(253, 2, 98) 70.71%);
+    
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  50% {
+    transform: rotate3d(0, 1, 0, 360deg);
+    background: -webkit-linear-gradient(180deg, rgb(255, 0, 255), rgb(253, 2, 98) 70.71%);
+    
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 0deg);
+    background: -webkit-linear-gradient(0deg, rgb(255, 0, 255), rgb(253, 2, 98) 70.71%);
+    
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  
+}
+
+
+/* 
+    1px 1px 0px hsl(300,72%,40%),
+    2px 2px 0px hsl(300,72%,39%),
+    3px 3px 0px hsl(300,72%,38%),
+    4px 4px 0px hsl(300,72%,37%),
+    5px 5px 0px hsl(300,72%,36%),;
+    6px 6px 0px hsl(300,72%,35%),
+    7px 7px 0px hsl(300,72%,34%),
+    8px 8px 0px hsl(300,72%,33%),
+    9px 9px 0px hsl(300,72%,32%),
+    10px 10px 0px hsl(300,72%,31%),;
+
+*/
+
+
+.parrafo-movil3 {
+  font-style: italic;
+  font-family: sans-serif;
+  color: rgb(255, 0, 234);
+  font-weight: bold;
+  font-size: 60px;
+  animation: code3 10s linear infinite both;
+}
+
+
+@keyframes code3 {
+  0% {
+    text-shadow: 
+    -1px -1px 0px hsl(300,72%,40%),
+    -2px -2px 0px hsl(300,74%,38%),
+    -3px -3px 0px hsl(300,76%,36%),
+    -4px -4px 0px hsl(300,78%,34%),
+    -5px -5px 0px hsl(300,80%,32%),
+    -6px -6px 0px hsl(300,82%,30%),
+    -7px -7px 0px hsl(300,78%,28%),
+    -8px -8px 0px hsl(300,78%,26%),
+    -9px -9px 0px hsl(300,78%,24%),
+    
+  }
+  25% {
+    text-shadow: 
+    -1px 1px 0px hsl(300,72%,40%),
+    -2px 2px 0px hsl(300,74%,38%),
+    -3px 3px 0px hsl(300,76%,36%),
+    -4px 4px 0px hsl(300,78%,34%),
+    -5px 5px 0px hsl(300,80%,32%),
+    -6px 6px 0px hsl(300,82%,30%),
+    -7px 7px 0px hsl(300,78%,28%),
+    -8px 8px 0px hsl(300,78%,26%),
+    -9px 9px 0px hsl(300,78%,24%),
+  }
+  50% {
+    
+    text-shadow: 
+    1px 1px 0px hsl(300,72%,40%),
+    2px 2px 0px hsl(300,74%,38%),
+    3px 3px 0px hsl(300,76%,36%),
+    4px 4px 0px hsl(300,78%,34%),
+    5px 5px 0px hsl(300,80%,32%),
+    6px 6px 0px hsl(300,82%,30%),
+    7px 7px 0px hsl(300,78%,28%),
+    8px 8px 0px hsl(300,78%,26%),
+    9px 9px 0px hsl(300,78%,24%),
+  }
+
+  75% {
+    text-shadow: 
+    1px -1px 0px hsl(300,72%,40%),
+    2px -2px 0px hsl(300,74%,38%),
+    3px -3px 0px hsl(300,76%,36%),
+    4px -4px 0px hsl(300,78%,34%),
+    5px -5px 0px hsl(300,80%,32%),
+    6px -6px 0px hsl(300,82%,30%),
+    7px -7px 0px hsl(300,78%,28%),
+    8px -8px 0px hsl(300,78%,26%),
+    9px -9px 0px hsl(300,78%,24%),
+  }
+
+  100% {
+    text-shadow: 
+    -1px -1px 0px hsl(300,72%,40%),
+    -2px -2px 0px hsl(300,74%,38%),
+    -3px -3px 0px hsl(300,76%,36%),
+    -4px -4px 0px hsl(300,78%,34%),
+    -5px -5px 0px hsl(300,80%,32%),
+    -6px -6px 0px hsl(300,82%,30%),
+    -7px -7px 0px hsl(300,78%,28%),
+    -8px -8px 0px hsl(300,78%,26%),
+    -9px -9px 0px hsl(300,78%,24%),
+  }
+}
