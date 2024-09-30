@@ -1,0 +1,9 @@
+@mixin flex ($df: flex, $jc: start, $ai: start) {
+  display: $df;
+  justify-content: $jc;
+  align-items: $ai;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+}
+

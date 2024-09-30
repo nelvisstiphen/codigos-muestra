@@ -1,0 +1,19 @@
+//Variables
+$font-sans-serif: sans-serif;
+$text-start: rgb(44, 252, 44);
+$text-end: red;
+$black: black;
+$light: white;
+
+
+$break-points: (
+  "sm": 480px,
+  "md": 780px,
+);
+
+$colors: (
+  "white": $light,
+  "black": $black,
+  "yellow": yellow,
+  "lemon": #bad422,
+)
